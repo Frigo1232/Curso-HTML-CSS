@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(90deg,#034C8C, #04BEC4, #CCFFEB)
+}
+main{
+    background-color: white;
+    text-align: justify;
+    box-shadow:10px 10px 10px #03658C;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+h1{
+    color:#034C8C ;
+}
+#frg {
+    color:white;
+    text-align: center;
+}
+h2{
+    color: #034C8C;
+}
+.lingua{
+    color:#04BEC4;
+}
+.destaque{
+    background-color: #04BEC4;
+}
+.sim {
+    font-size: 30px;
+}

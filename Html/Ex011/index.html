@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens alternativas</title>
+</head>
+<body>
+    <h1>Esse exercicio é sobre adaptação de tamanho de imagem</h1>
+    <p>Tentar abrir o site em vários despositivos</p>
+    <picture>
+        
+        <source media="(max-width: 750px)" srcset="Imagens/imgp.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/imgm.png" type="image/png"> 
+        <img src="Imagens/imgg.png" alt="Imagem flexivel">  
+    </picture>
+    <h1>Reprodução de audio</h1>
+    <p>Fazendo a repodução de um audio no html</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/Lazy Walk - Cheel.mp3"
+        type="audio/mpeg">
+        <source src="midia/Lazy Walk - Cheel.ogg" type="audio/ogg">
+        <source src="midia/Lazy Walk - Cheel.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não é compativel com esse formato de audio <a href="midia/Lazy Walk - Cheel.mp3">Baixe ele aqui</a></p> 
+    </audio>
+    <h1>Reprodução de video</h1>
+        <p>Reprodução de video hospedados localmente</p>
+        <video width="500" poster="vid/cocagel.png" controls>
+            <source src="vid/coca.mp4" type="video/mp4">
+            <source src="vid/coca.m4v" type="video/m4v">
+        </video>
+
+        <h1>Video do youtube</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+
+</body>
+</html>
